@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian States Cultural Website</title>
+    <link rel="stylesheet" href="se2.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <img class="lotus" sizes="500px"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKe0lEQVR4nO1be5CXVRl+WIFWgQAnxKVBMdqFAnEhlS7koGChgZEBYVagppGWMSldNNDILqYpklLTpI2ZVjYVlShpKpIK6S4piRBeUC4NxM2Qi7vLss3bPKd5ejvn+77fpcsf+8ycgT3f+c75zjnv+7yXc35AJzrRiYKYBuBXAIajdNQDmAzg8wAWAbgbwBIAD7DPuwAsBPApAKcD6F+gz2EAfg7g7MTz3gA+B+A3AH4NYA6A16MC/AlABz80D4cDOAfAHQC28L1SyiEAz3CssQBqImPcyLarIs/eDOClSL8bAAwudwGmAFjMlU/heADfB/C3jMltA7AOQBOAR/jv8wD2ZLzzMoD5AI6Ssd5KCfiA+4YuAJ6Ud59j/+HvP7BNVTGKonzIffhuLtqlAEYD6JvTzxsBjANwFRenxfW3D8CCHBU5SdrfxMl2oTSF+rdVa+J9AdwC4KB0fpCTtp3pXmH/RwK4BMATbiFeAfBpAIdF3jlH2plEBoyQ+umoAk4HsFU6baX4m/55vA7AuwHM4g7GSPBrAGbwo2MieiqA37mFMHE+zrUbJ88vkvpPSL31lYm3AJgNoE/kmRHSVwC0S4cP8R2FMe4FnOT+Eknwr1yUMwF0df1OBPCiU7PJbrG3yKb8gKWVdZvZJhNNbHydqzeR/qnTSZuk4lgAN/NZbHJWv5ZjLOO/NqG2RHubzOUAejor821p006eCZgA4LVIX1b3HhTAN6hnZ0ndEdzN0NlaZxHsA6+Xle6QFb+FVuSYDAbuRma/EMBPALwakYrz3ftTnPUwyQwworuHz/fQHzCyLgvd2FkYaAUJKsB0apOz40u42jGiKgJb0Jnif4SynAupE90mz83Zqjpud/reg/W2G3OdFVheyUonOGcqgI0yxk7yg3qaW2TxjUyrhktk4CZxJ42cbpVnewF8vApORm+auAZX38PpfZvjn+NJiPbsAIBGVAGjhEw2iSdW48jwz9RfjwbnvRXBN8XExXC28IPt9sVOFYM0rgfQCxWgK4CnZLXNjgcsksmb29kv8v7byc7bydpFMZEibq5vCiez32ABLFALmOs8wbIxWzqan3Aonkr4CqDr2072LmUBiqJRYo794vWZdP5evNKyVOFI6dwCiVpxJw+IStTl9FOfkI5q4TTxH9bSVIOLEeofLqfjq2SXJ8nKrhSVGIP/D1wh3/p1qV8g9WNKtb87+WKzsPpF0qH57ZUSnjH4b8kVRREbwzbmcX6XRY9DWV8n0npfCWNgpkzUPK3gAm+UpEIQtTzCG8ykyMWiRobLZIxXHcEezQVe6PrKItVGYf87I2Rt1mJQ0QV4iC9tlUDkfPlg+39Rwrvf+fTTuKg+b7CTZnSeC5yuKDBGwJ1CfCHrc4L09aUikx8gUd4NUh90f2NGjO8Jb0wiuDkoO39NpF7LLhcEZZHqcFlYVdGnWbemyAJ8RAZ/B+uGJMwhnNh+lL6/RYPqPltw9Bmx20EkP8h26t1ZWc1xwt8zqefDSMjTM8LZRyWFVhPxC2yDM3EbG+4R8b9cOrAdiGGZm8TLIsq/YJsz5Lm50BporZdwtQ/rQrJlm7i4oZiVimGWtAnxyDulzjY4E8+y4b1St4R1LyTe6RIJXTucp2gk9WNh6iAlAR+W9rMoHZpt8sVC2xgGSZvLZIHD91lYnkRXieWvlfrdkV1T9JNBF9GDvM8lONrlb5MyjxrJ8vhEqDlkPyT5Lhc1SWED21jGOCDkFC2llkS9DHqe6HaoMz2O4ZhEDq6Ouftgi0PR9JVCs7ZW/sKo8PAI06ekEcwxetK7Q7zXJMZGkobK5JZmCiI1hVbiXu5GaLOSBDaO7UDzFlSr1bG64kzp55eSQu9D83mDHHa00vmxdlcDOCUSTbaIEzdfJDEZrk+K5M0nRUjlygzd1LKDKbIBov9GjkUk0HjgRL7nVSJVjOw8affMqPs3aD69IUJOoe5qqbOdfRDAz2gJ1kWcnH1cjA7qYgq95J1NkX5aaNOXUr+XuyyRSbB32esy6spegMmRQRX9aW4ei+yShakpdI+0b2OCdIKk4RRfZrtDzCRVtACTclQg1B0lXpuJeBZOYZiq53QoQKbB1OX576vY9o9SV7YKjC1Igurjb3dBTgy1nExQh1SW+F0ylvFMHkZL+y9ESPC1UkmwPhLw9E+YwWlSb2fwefiYtLeJxjBP2gws0OdSmagdqmaZwR+xzjgj0xFqiThCuyKOUI2YP3Ob35TzsccKqX010WalZKDy8CFZrIUFHKFwXG4HO5l4NpJASLnCp0nk2JwgKcUKcXCOiBxp5y1QwFCeWnXQXdbo8LiEK7yXdXZkl4lbZVe7RZIXPld/feLAJE8N7LpKTJxbI6e9iiHuAMQyyIpPyhgjI9xybt4CnBtxLBoSZ29BbRbL89WRRdK2z7HdboksVZzteD2FiS4qDDusCKb3JQmH55USDteJWJsf78V3UyQhUstLSGGQA2Td2G2Q8SLqzzDnEMRzRyKn2OAOYez9L+YkRFSNVst4hfCg6FfICZwnH2DHXx41HFSzOnsZfT3gih6bH3SnyL7to+4ewisZt8LuEucppMQaSzSt/8CMSFK0G/34Dv6b0vUTI9dZqlHaGQladBrDKFlMi/x8UrQ9koNIoof47qvEcbhAPsjuD2ThVIptU4XlCabMUrzizytapO0ACcU1wVMIc2WyZ8lAK0TMNAT9X0K/VXX/pgLOVxJ9xdY+L0mJ4ZLr21yAVYeQ+CopWbs/XkR/jfgXIyQDZea5LFyaMH8XSv3TGYej4SCjGvpvfr/HSDm/3CdXeGskO9zGs4GycBijrMDWKvI3ywc2JczX6CouwMmRvvV4PJC1P9dUU14WGoVINssNzRrG6WGg9YlL1A1VUAGfip8qvoO/IDFOVGJdVuhbCmbJRFdlXJHZx7sDVb+HS/R0FzPa3DHdCOGt/fy7arhNBn7YXZK60jk0jzG4qRZqeBqkt9B2uPxEA4OsIBV6ANKFfFHRJY2uktQI93fe4JIpwVHqkIhyQgXX5Hpxh9e4fpe5fMFJPDBNBVpzWG/X/HLRhbn4FxmZNVOvQBNzv7sYpWLWg3kEn8W1nfkug55Bibv/YIwxnCp3d+Sm6TaeE6qKTXenUrGzyzk5p0n/gusiLKxhZ3dJcQdd83o/kEmK1FXZ/Vy88HuBZkpP6qqske9nnfttm/EdZyns1yYxBBXIS92hXszWWpqQEH5ukEnWMDWuev9IxAr04o4tFdYuWrbSpz8jokLvd78G2SnXeCrC9EgGWLOpR0cyQoF49Ga2eX8e3emOmrR8iyb0HkZ8i5mzu4bkNSxhScZHTqEfLyXIycN73X3b3pJgbI2kscA2C500tDM/MLWI2OWgHzmp2U18F+1/uQQbRS2dh5hIxk50FSfwHoD3/MIt7dlMfugF6xgG8ocY8+nOel7YyzPCmOd5LV1jU5GyMVKyqh0STKT8fQ8T3++JQxIr2yMk+EIOT2wg72TdOXwy8RuHsjyuGVSD95Xp2dXy7OB258AULYcYaN3IGKTINwzl2UXRzfqvYjDzCnN4SyNGgguo1+P/w7dLO9GJTuCf+DsE3ToqT2IZFQAAAABJRU5ErkJggg==">
+        <h1 id="title"><b>HERITAGE HUES</b></h1>
+    </header>
+
+    <div class="navbar">
+
+
+        <a href="#" class="state-link" data-state="home"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR4nO2ZMUscQRiGR8+IsdAuERtFBAsxggSSPyCCEexSxUbEwnSaRvwD4g+QSEgXU6RSFEFSqGBjAokWKdIESUgXo2ihBs8njM7Fz2HN7s7trbswDxxcMfe+38s3++3snlIej6ciAK3ALDADdKo8ATwHTrlCfx9TWQeoA15zM2+AepVFgDbgs1XwR/ORfNLbS2UJ4BHw2yr0lelIUFd+AX0qKwBvRXHHwEjAmlHgRKw7A6aAqtup+npxT4E/wDfgYUinfljdWAAa0q04uLh6oBBh3T1gzQrxNbVRCwwB88DjMjQKwDRwLkIc6U4mW+1101rgpTDcSUBzEDiwujEH3Emm6iujJmDTMnqXkHYH8MXS3tCeKiGD7oALT9+Q7iZioC48GoFFy+O79i5XuMvMbDn6JpIqXKLHqRmrReGn7y09ygWgBtgWYntAr5NYPN8+41VCb69aF6FnQuQQeFCRigPQIxXYF/7DKi7AihCYVCkDjAv/VRcBeeGmfvgCWoT/TxcBeTFVV6TK/6A9hX/RReAf6pagnBp8gDx1gMunsTVzpA5DPxMsA/ezFGCd+MxnKYB8AxGV3SwFiLQWaI4z2/EBDL4DBr+F4lDaPn4L5WQLFaOcGrMcYMksXcprgIJ5DCzkMkBU0g5wKn7fGFugzABcvisqceJiZv8xkTRHwqvdvNm+iS2XAAMVDnAuvF6ErO2PHcAIPwE+OB6Xw3gf0gHtueVcvMfjUbngL0eztUNiogizAAAAAElFTkSuQmCC">Home</a>
+        <a href="#" class="state-link" data-state="travel"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADy0lEQVR4nO2ZWYiOYRTHX2MnLuyE7INJ1kRZI2RrbiQjLpSxXEgkUUpCkQtkKbssV2S/kF2WQpLImqxlKdvYDT89fedrjsf7vt83nBnzyb+mmb55nv8553nPc97/OV8Q/Mc/DKAm0CLIRAD1gGckkB9kGoBhFGFvkGkAclUAB4OyDKAc0BOYDxwFnvArXgFngeXAEKByWXC8OjAduE3x8QJYCjT6Wyc+Hnga4+BX9fe3mHXvgYVAldJyvg5wKMSRl8A6YBTQHBip/rffnbSkzjLgXsj+a0CHknY+G7jvGX4ATPJPEBis1uz2/pcFDAUuelxvXZAl5Xw74Lky9l1Os1rE+mrAGXkyg2JSMR8oULxfXAm2dt49/ofKSIGlERKHo9PqA9DJirw8cNJ7zD1MyBWAhsAdZWdmYAFghldZBpoQh9tqBpyWnz8vr0ADLz/nGTlaEZgMbASWAF0seMMMLfPKXEUDzgrAkZAyekrkR5aV866KvFEGRhjxTiQe152StTA0VpHecCXPKIDNinc9sA347AWRZ2FopyKcY+G88Dr9k8ROVaYXSf9w1X8CTvgVW/x5itKmJid4O3tVrVmK9R1FybpishZon46RWsrIO7OLVcSvL/HyFGtneunlFMC+0DIrPWxXYJzacEs+yzYMYJDiL3AHFrPWpdelkMt+Oa6HjcJ8owCcBrpSnDsG9AV2AYVqX45e0IfUOGYRgNhbrXi3p7mnPnBO7cv1Je4KeVyubOo7cEleND2NnHep+lrZiBWGQCvxzYm8JAojUw9oqRY+snDa45/lvbjKRazrBxyQi+tjUZyBLO8tbNa3ApWAx4p7QojUGBNxcR3OpyXlgRNq0xjDAPIU75PkCwqoIcrX7/iSPfUeoFdxDM1VBPsMA9igeOcAjeXtrO+EbvjXAK1/x1ALlXtOqzQxCsA1/knclhbShyvn89wA4U+NHVekq4wC6BtxKZHqN9FsxAIMoAhvTEgTvNOAj4rb3bfhVorXN5acAR0w5k3KliYhNd+uQ5OmPsf9NiONtpWreoPxQSYBGAF8Umm1uCw41dSNYOJym4Swm+GJtJtA3dJwsHZUeXWfq4nG7Ig1bWUcr3HXqmSncr6NDLm+i17prxsfqSpJ7Pf2dge2eBNsRGmW/MmLE6P5FW7cvlW+M1jg6Zcp8hILkwqF0hNXKhXnJYCqwI4Us/90cNj1vaXmeEggrYGVEV8rRcFNrDcB3YKyApHgLrenSqpc8LTNJmnQezvJHGRIXQ+9xBkBEt3UTwOsjAJFPfaRtIZR/xFkJn4Ah4GqrYMrWwQAAAAASUVORK5CYII=">Destinations</a>
+        <a href="#" class="state-link" data-state="fauna"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADkUlEQVR4nO3ZW6imUxgH8GUOmnE2wwhhlJwaJhcOiQs3U7IjBmUaZ4PChLmguXCI2tKIFDm7cmjfaBtsYTAuUISGHDJlKEoyTmX2DOOn1X6+Wvv17e+0P/V+tf/13rzrOa9nPetZa6U0gxn0H9gNc9KgAYfifZMxju+xCW/iCdyK5ViCWakuwHrd41e8hFtwUod6ZuEybAz+3/EubsDc6Tjwk+njjjY69sLrLfg/xkG9OvByIehbHIZ9I7VOxhCuxf0Yw3dNDHiljY4XOwjCR9i1FwcOx8+FoByp2W14spOX4DGMYmkL2jML2TuwBntjAW7G9mL8RpyAc7EKV8d3UU7VXGiqwk/HamyoRONZXBeLNtMcgz27js6EjmcKuWuajGeHOsVfuKvBeI/ukdfLBxgJ/ssjzfZpMbu/FPwLmtAc0KUN4ymm72/9xQ8xkw/iCpwYed3Al1M4eWBBsxOb8Soex6ORpmPxfyuGG7W/xOZQnKO6Lhifi1K5qbJGesH4VOXWRCnuqBhUGV8rGPNsLG9DPx9H4YxYwLfheXwSBrbCNU3k7Ye1lUy4sBsHcqn8rBKloY4FTJY1G0fg7IhoLgKfR/4PN6Ff2cTp9b0oPgRbCiG5pJ3XixPT3P1H8gz3KmxxxYlcqlb13erJOpfFgvwwp2Q/BGYnvqlE5b52G1qtYKKc5YiUeCOnWRoUYPdoDUrkqV6RBgUmKsrtsRZKvI1T2/DugUewDfd2oGsenopmr78zjVPwdZOa/l70T8c2TnA4OJquvCE2sK0DHSsK+nV9daCI6APRRXaL4Q7kDxf0d/fdgULRkTHV7XbcRsN3fodyNxR8V/1vDhQKF0WqjFbK7o+5j4kefn4Xm+jOQsbRqUaVrO3+gYcK479KdUAsyu1xxp3Xgm5ppcqtTnUAXiiMurTF/dOnBd2WnvugfgM3FYaNTbHHjBY0uZVelmrWjjRS4x8cX4ztEgelEmtT3YCnCwNHiv/5WqbEk9mpVDfEnvGf3Rh/FP831tL4BsowF/8eruT+UBowB+birWIo340elwbFgfi/sNIg5t18URoUB2JsCX4rSN6p3btEKwcycFblOmVlGqAZmIMrK1eOE/edNV/E+YHjAnxRjkdHelqqEyoG5kPR9VOc7rbi4lQ3VIwsU6WBHdFW7J/qiBbPVn+G4YtTnRFPUipPV/nOdGEaFMStxp04Z6Bu+GYwg1R//AstSA2dgDigpAAAAABJRU5ErkJggg==">Fauna</a>
+        <a href="#" class="state-link" data-state="cuisine"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACt0lEQVR4nO2ZPWgUQRTHJ+c3Gozxo9LKTjuxs9DKWMSACiIIaqmIgglGjVooaKogIih2WtilMGBsxMRCm0T8AlHxo7JRMCZRPIIfPxluTt4N6+zs7e3tiPsrj/fe/t/Ozpv35pQqKCj4PwAWANuBq8ATYAL4AuxSIQOsAi4A00QzokIEmAucBL7xd8JcAaANGI0Q/AI4A2wE2iP89scknJQZYBzoBWb7ip8FPLACjQEdHr5PyY57XkkA3cLpJ3AMKHkm3+gVsOn1ESHffrcKYx9WGfdxmvxjDm1NUeoAaBV6ppOuQI/6B1fgiLUHjuuN7fnAAwn3QBk4LPzbgUdp94CuQvcjqtAWoMXhp0/pHyTnpYixw2E3mqSU6nNgJOphwFlgE7AMmA+sN+3FrzrEl2NWoHoOHPUWL4LNAfrqKIuvog653ABWAgPAlIf4m8ASFSJUPpdtwBXgMfDJfALPgWvAhrw1FhQ0AmAr8NCUsCq6y1xu2Z2ybLJkxpTTzjjxXY4gNYML8IF86HQloLOMIu8VkIy5EtBlscpiFQhUOoMqZZehHNxbVZgJTLgM3wrDNSoQgLVC12uX4bAw3KMCAdgtdA25DHuE4aAKBOC60HXaZbhaGH4FFjZVaQRaA/BZ6FoX5/BMGPepnAEOWfNIS5zDPuGgq9KKpqm10K058FHoOaji0HdA1lR023cmbjTADaHjnW7pfR07rBGxP3O1FsAJaulSSQDOWwEu+t7QpYXKTYh8gZfrCVIyI6JkSA/zmag26DJpPfMOME+lKGF2ElNm2M+kxFLbUN4FFqUNqFfiXMS1iT4nBoG95qj3bv60rW5VqLTvNVXO/Kbn7Ev6Zi6VeCvw5oyuz997V5cGJFEy54Q87NLyHVjalAQi2g79X8It4I11qx3HpOl8h4GdTRdfUFCgguE3kKcSN20fTf0AAAAASUVORK5CYII=">Cuisine</a>
+        <a href="#" class="state-link" data-state="attire"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRUlEQVR4nO3Xy4uPURzH8YMxk2vYuBSSbNwTS2RBGnYil/gLlDJrcpuFhQVrG9cFsbGwQZkiYsWEXCJJEgt3IS+d5vnpcTy/ZibN/J6fnvfynPOc8/me7+c833NCqKioqPivwHDsxHW8xQdcxppQdjACXeqzL5QZ7NE77aGs4HFO6F5MwCSczbVfCmUFHzORX9Caa5+cC+BdKCvozA5tZ9Ies1DjfWg2sD8XwI3QTOBIcoi3h2YBWxPxsR60hGYBt3Liz6AtNBN6/kY1JoRmQ47QjPiTzaHs6Km8y2oHFa+TIK5gdijpDbQjFqlM6NGsvR0vkiC+4SBGhTKAFehORHbl+sfgEL4nY55jXSOFT8FpfxODWVAwfi6uFoy/iFmDKbwFO+KlLBHyMbtOt/by/Xq8KrDV4QG3FZbjbsEuXsDUfswzLhP8I5nnCdYOhPB4HT6On8mCD7DqH+ZdiGt1NmRGw+3SxzWGYFvBL/dztkZbQ+3Sj/XG17HVI6xuuF36sf4i3KyzcdMaapd+BDE0s9WbRMunQi2YjtvJ4JiBUzEjgyU8BRNxrMANt35nA6Nxv8AuK0NJwFLcSTQ+xNjYuTs5+TvL+GrSY/GO5I2xK3bcyzVsCiUHW3J6u0O26zVGhpKDUXnHhOResjiUHCzJ6X0Zsj9NjXhQFmNYKBkYlonPF9cTsWMevmoczzA/qQHnCypyStQ8p/bRxgYHcSAXwMw+jI9aNxQ9OE5GXxlcnkYXJBk4VycDUduJUr6rKyoqKipCI/gFc7DEeGulqwEAAAAASUVORK5CYII=">Attire</a>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <a href="#" class="state-link" data-state="andaman-nicobar">Andaman and Nicobar Islands</a>
+            <a href="#" class="state-link" data-state="andhra-pradesh">Andhra Pradesh</a>
+            <a href="#" class="state-link" data-state="arunachal-pradesh">Arunachal Pradesh</a>
+            <a href="#" class="state-link" data-state="assam">Assam</a>
+            <a href="#" class="state-link" data-state="bihar">Bihar</a>
+            <a href="#" class="state-link" data-state="chandigarh">Chandigarh</a>
+            <a href="#" class="state-link" data-state="chhattisgarh">Chhattisgarh</a>
+            <a href="#" class="state-link" data-state="dadar-nagar-haveli-daman-diu">Dadra and Nagar Haveli and Daman
+                and
+                Diu</a>
+            <a href="#" class="state-link" data-state="delhi">Delhi</a>
+            <a href="#" class="state-link" data-state="goa">Goa</a>
+            <a href="#" class="state-link" data-state="gujarat">Gujarat</a>
+            <a href="#" class="state-link" data-state="haryana">Haryana</a>
+            <a href="#" class="state-link" data-state="himachal-pradesh">Himachal Pradesh</a>
+            <a href="#" class="state-link" data-state="jammu-kashmir">Jammu and Kashmir</a>
+            <a href="#" class="state-link" data-state="jharkhand">Jharkhand</a>
+            <a href="#" class="state-link" data-state="karnataka">Karnataka</a>
+            <a href="#" class="state-link" data-state="kerala">Kerala</a>
+            <a href="#" class="state-link" data-state="ladakh">Ladakh</a>
+            <a href="#" class="state-link" data-state="lakshadweep">Lakshadweep</a>
+            <a href="#" class="state-link" data-state="madhya-pradesh">Madhya Pradesh</a>
+            <a href="#" class="state-link" data-state="maharashtra">Maharashtra</a>
+            <a href="#" class="state-link" data-state="manipur">Manipur</a>
+            <a href="#" class="state-link" data-state="meghalaya">Meghalaya</a>
+            <a href="#" class="state-link" data-state="mizoram">Mizoram</a>
+            <a href="#" class="state-link" data-state="nagaland">Nagaland</a>
+            <a href="#" class="state-link" data-state="odisha">Odisha</a>
+            <a href="#" class="state-link" data-state="puducherry">Puducherry</a>
+            <a href="#" class="state-link" data-state="punjab">Punjab</a>
+            <a href="#" class="state-link" data-state="rajasthan">Rajasthan</a>
+            <a href="#" class="state-link" data-state="sikkim">Sikkim</a>
+            <a href="#" class="state-link" data-state="tamil-nadu">Tamil Nadu</a>
+            <a href="#" class="state-link" data-state="telangana">Telangana</a>
+            <a href="#" class="state-link" data-state="tripura">Tripura</a>
+            <a href="#" class="state-link" data-state="uttar-pradesh">Uttar Pradesh</a>
+            <a href="#" class="state-link" data-state="uttarakhand">Uttarakhand</a>
+            <a href="#" class="state-link" data-state="west-bengal">West Bengal</a>
+        </div>
+        <a href="#"><span class="sidenav-toggle" onclick="openNav()"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgklEQVR4nO2Yu2sUURSHZ1WiKNokxCikExUfqzEgCP4BdhZ2gqiN0UIXFNNYCcZC00QCFhKLkGAIaKeg4itRbNJYKKaKlY9YqQGjMfnkkBnmeHMnZN2z2Vm4v27n7H6/c2bvPfcRRUFBQUF1K6AJOAEMA2PAR+AP8A2YAO4Bx6O8CdgO3I2TXYraozwIWAP0AjMsXb+BLXlIvgV47SQ3CzwFSsA+YBOwEtgA7ASOAnvzkvwHJ/kHQLEC5nrbLBcfNvrNy/A5VyGzC5gDHgGr7LL1m/U64/mQAXNcMS/ZZOo32uZM2DNG3AuK+QvYasH1GUmrTHTfkLsCGFXsW1ZsbdKo+vysdTcBDqgCpoHmyNjgpDJ4YgpPPV4pj2PWcNkeJCqZwlOPTuXRbw2XvU1VtwLAfuXxxhr+ScFbPPGrwJT09HKfqdhG5fHZugBpb4kaPPEfcex7uc9UrEG3U+sCvip4U8ZqKsldKfeZijUrj0nrAt4peJspPPVoVx5vreGDCn7WFJ56lJTHgDW8Q8Gfm8JTj2fK41Q1ttB6IheN+UU9geUsYclPTIaUyQugYMiW80SiQSuua7Ir3kKbrsiyq1XMGWC3BTfL7Joyk83dkQp5F+PDTKLrdtn6DVcDL50izv/PcAJOO8lPAuuqk/nCBec9/2pE9jJlDMWH+NUn54PlKKLR+Sf05G7N+M0O4LHz1kVfnM+3l6sIGU6XnfaaOY49b10mbDewFrhZkyLUzVxffJKS09rhjO/1xMlJJ7sD7FGxQk2LUMOqdZG4XHIdBDZnxAs1L6JSEYrIiQj/RE7E/KWXdDitG1E9iYVFTEX1JuaLkHXkp9xs1DqfoKCgoMirv6S0lykohmubAAAAAElFTkSuQmCC">
+                Search </span></a>
+    </div>
+
+    <script src="se.js"></script>
+    <div class="content">
+        <div id="home" class="state-content active">
+            <img class=" img1" src="india-glance2.jpg">
+
+            <h2><u>WONDERFUL INDIA</u></h2>
+            <p class="home1">India, officially the Republic of India, is a country in South Asia. It is the
+                seventh-largest country by area; the most populous country as of June 2023 and from the time of its
+                independence in 1947, the world's most populous democracy. Bounded by the Indian Ocean on the south, the
+                Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with
+                Pakistan to the west; China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In
+                the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar
+                Islands share a maritime border with Thailand, Myanmar, and Indonesia.
+            <ul id="list_1">
+                <li>Capital - Delhi</li>
+                <li>Largest city - Mumbai</li>
+                <li>Official language - Hindi, English</li>
+                <li>Religion - <br>79.8% Hinduism<br>
+                    14.2% Islam<br>
+                    2.3% Christianity<br>
+                    1.7% Sikhism<br>
+                    0.7% Buddhism<br>
+                    0.4% Jainism<br>
+                    0.23% unaffiliated<br>
+                    0.65% other</li>
+                <li>Area - 3,287,263 km2 (1,269,219 sq mi)</li>
+                <li>Population - 1,428,627,663 (2023 estimate)</li>
+            </ul>
+            </p>
+            <!-- Add more content specific to Andaman and Nicobar Islands -->
+        </div>
+        <div id="andaman-nicobar" class="state-content">
+
+            <h2>Andaman and Nicobar Islands</h2>
+            <p>The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known
+                for their palm-lined, white-sand beaches, mangroves and tropical rainforests. Coral reefs supporting
+                marine life such as sharks and rays make for popular diving and snorkeling sites. Indigenous Andaman
+                Islanders inhabit the more remote islands, many of which are off limits to visitors.</p>
+            <!-- Add more content specific to Andaman and Nicobar Islands -->
+        </div>
+        <div id="andhra-pradesh" class="state-content">
+            <h2>Andhra Pradesh</h2>
+            <p>Welcome to the cultural page of Andhra Pradesh. Here you will find information about the traditions,
+                festivals, and heritage of this vibrant state.Andhra Pradesh Tourism Development Corporation (APTDC) has
+                built an impressive infrastructure: hotels, resorts, transport fleet and amenities to promote an array
+                of tourist activity. Excellent facilities that offer value for money includes hotels and resorts,
+                wayside amenities, transport, information & reservation centers/kiosks, culturally vibrant sound & light
+                shows, leisure boating, pleasure cruises with facilities such as conferencing and catering, and above
+                all a journey of heritage discovery.
+            </p>
+            <!-- Add more content specific to Andhra Pradesh -->
+        </div>
+        <div id="arunachal-pradesh" class="state-content">
+            <h2>Arunachal Pradesh</h2>
+            <p>Welcome to the cultural page of Arunachal Pradesh. Discover the unique traditions, festivals, and
+                heritage of this northeastern state.Arunachal Pradesh is a state in northeast India. It was formed from
+                the North-East Frontier Agency region, and India declared it as a state on 20 February 1987. Itanagar is
+                its capital and largest town. It borders the Indian states of Assam and Nagaland to the south.</p>
+            <!-- Add more content specific to Arunachal Pradesh -->
+        </div>
+        <div id="assam" class="state-content">
+            <h2>Assam</h2>
+            <p>Welcome to the cultural page of Assam. Explore the rich traditions, festivals, and heritage of this
+                northeastern state known for its tea plantations.Assam is a state in northeastern India known for its
+                wildlife, archeological sites and tea plantations. In the west, Guwahati, Assam’s largest city, features
+                silk bazaars and the hilltop Kamakhya Temple. Umananda Temple sits on Peacock Island in the Brahmaputra
+                river. The state capital, Dispur, is a suburb of Guwahati. The ancient pilgrimage site of Hajo and Madan
+                Kamdev, the ruins of a temple complex, lie nearby</p>
+            <!-- Add more content specific to Assam -->
+        </div>
+        <div id="bihar" class="state-content">
+            <h2>Bihar</h2>
+            <p>Welcome to the cultural page of Bihar. Discover the rich history, traditions, and festivals of this
+                ancient state.Bihar is a state in East India, bordering Nepal. It is divided by the River Ganges, which
+                floods its fertile plains. Important Buddhist pilgrimage sites include the Bodhi Tree in Bodhgaya's
+                Mahabodhi Temple, under which the Buddha allegedly meditated. In the state capital Patna, Mahavir Mandir
+                temple is revered by Hindus, while Sikhs worship at the domed, riverside Gurdwara of Takht Sri Harmandir
+                Sahib Ji.</p>
+            <!-- Add more content specific to Bihar -->
+        </div>
+        <div id="chandigarh" class="state-content">
+            <h2>Chandigarh</h2>
+            <p>Welcome to the cultural page of Chandigarh. Explore the unique traditions, festivals, and heritage of
+                this union territory and city.Chandigarh, the capital of the northern Indian states of Punjab and
+                Haryana, was designed by the Swiss-French modernist architect, Le Corbusier. His buildings include the
+                Capitol Complex with its High Court, Secretariat and Legislative Assembly, as well as the giant Open
+                Hand Monument. The nearby Rock Garden is a park featuring sculptures made of stones, recycled ceramics
+                and industrial relics</p>
+            <!-- Add more content specific to Chandigarh -->
+        </div>
+        <div id="chhattisgarh" class="state-content">
+            <h2>Chhattisgarh</h2>
+            <p>Welcome to the cultural page of Chhattisgarh. Explore the unique traditions, festivals, and heritage of
+                this central Indian state.Chhattisgarh is a heavily forested state in central India known for its
+                temples and waterfalls. Near the capital Raipur, the town of Sirpur on the Mahanadi River is home to the
+                red-brick Lakshmana (Laxman) Temple, decorated with carvings from Indian mythology. In the south, the
+                city of Jagdalpur hosts the Sanjay Market on Sundays, a bartering place for local tribes. The huge
+                Chitrakoot Falls lie to the northwest.</p>
+            <!-- Add more content specific to Chhattisgarh -->
+        </div>
+        <div id="dadar-nagar-haveli-daman-diu" class="state-content">
+            <h2>Dadra and Nagar Haveli and Daman and Diu</h2>
+            <p>Dadra and Nagar Haveli and Daman and Diu, a union territory in western India, are regions rich in
+                cultural diversity and historical significance, formed by the merger of two separate territories in
+                2020. Historically, these areas were under Portuguese rule for over 450 years until their integration
+                into India in the mid-20th century, which has left a lasting imprint on their architecture, culture, and
+                traditions. The towns of Daman and Diu boast impressive colonial architecture, with notable landmarks
+                such as the Diu Fort, built in the 16th century, and the Church of Bom Jesus in Daman, reflecting the
+                Portuguese influence. This colonial heritage is complemented by indigenous cultures and traditions of
+                the tribal communities in Dadra and Nagar Haveli, predominantly inhabited by the Warli and Dhodia
+                tribes.
+
+                Culturally, the union territory is a blend of Portuguese and tribal influences. The traditional Warli
+                art, characterized by simple yet expressive white-on-mud paintings depicting everyday life and nature,
+                is renowned worldwide and remains a vital part of the local heritage. Festivals are celebrated with
+                great enthusiasm, with events like the Tarpa Festival showcasing traditional tribal music and dance,
+                where dancers form a circle and move in rhythmic harmony to the beats of the tarpa, a wind instrument
+                made from dried gourd. Additionally, the Carnival in Daman and Diu, reflecting the Portuguese legacy, is
+                marked by vibrant parades, music, and dance, drawing parallels with the famous Carnival of Goa.
+
+                Culinary traditions in Dadra and Nagar Haveli and Daman and Diu are equally diverse, offering a mix of
+                tribal and Portuguese cuisines. Seafood is a staple, with dishes like prawn curry, fish recheado, and
+                crab masala being popular among locals and tourists alike. The traditional tribal diet includes dishes
+                made from locally sourced ingredients, such as bamboo shoots, wild mushrooms, and seasonal fruits,
+                reflecting the region's natural bounty.
+
+                The picturesque landscapes of these territories add to their charm, with Diu known for its serene
+                beaches like Nagoa and Jalandhar, offering a tranquil escape, while Dadra and Nagar Haveli, with its
+                lush greenery, rivers, and wildlife sanctuaries like the Vasona Lion Safari, provide a stark contrast to
+                the coastal beauty of Daman and Diu. This combination of historical richness, cultural diversity, and
+                natural beauty makes Dadra and Nagar Haveli and Daman and Diu a unique and fascinating destination.</p>
+            <!-- Add more content specific to Dadra and Nagar Haveli and Daman and Diu -->
+        </div>
+        <div id="delhi" class="state-content">
+            <h2>Delhi</h2>
+            <p>Delhi, the capital of India, is a city of profound historical significance, cultural diversity, and
+                vibrant traditions. With a history that spans several millennia, Delhi has been the seat of numerous
+                dynasties and empires, including the Mauryas, Mughals, and the British, each leaving an indelible mark
+                on the city's landscape and culture. The architectural splendor of Delhi is evident in its iconic
+                monuments such as the Red Fort, Qutub Minar, Humayun’s Tomb, and India Gate, which narrate tales of its
+                glorious past. The Mughal era, in particular, has left a lasting legacy with magnificent structures like
+                the Jama Masjid and the sprawling gardens of the Mughal empire, such as the Lodhi Gardens. Old Delhi,
+                with its narrow lanes and bustling markets like Chandni Chowk, offers a glimpse into the city’s
+                historical and cultural heart, while New Delhi, designed by Sir Edwin Lutyens, showcases wide
+                boulevards, colonial architecture, and modern infrastructure, symbolizing the blend of old and new.
+
+                Culturally, Delhi is a melting pot, reflecting the diverse traditions and customs of India. It hosts a
+                plethora of festivals, such as Diwali, Eid, Christmas, and Gurpurab, celebrated with equal fervor,
+                highlighting its secular fabric. The city's cultural life is vibrant, with classical dance forms like
+                Kathak and Bharatanatyam, as well as contemporary arts and theater thriving in institutions such as the
+                National School of Drama and the India Habitat Centre. Delhi's culinary scene is equally diverse and
+                renowned, offering a spectrum from street food delights like chaat, golgappas, and parathas of Paranthe
+                Wali Gali to luxurious dining experiences featuring Mughlai, Punjabi, South Indian, and international
+                cuisines.
+
+                Traditional crafts also play a significant role in Delhi's cultural identity, with markets like Dilli
+                Haat showcasing handicrafts from across India, including textiles, jewelry, and pottery. The city's
+                modern identity is further enriched by its status as a political and cultural hub, hosting major events
+                like the Republic Day parade and the India International Trade Fair. Moreover, Delhi's educational and
+                research institutions, such as Jawaharlal Nehru University, Delhi University, and the Indian Institute
+                of Technology, contribute to its reputation as a center of learning and innovation.
+
+                In essence, Delhi is a city where the past and present coexist harmoniously, offering a dynamic and
+                multifaceted experience that encapsulates the spirit of India. From its historical monuments and
+                cultural festivals to its bustling markets and educational institutions, Delhi continues to be a vibrant
+                epicenter of history, culture, and progress</p>
+            <!-- Add more content specific to Delhi -->
+        </div>
+        <div id="goa" class="state-content">
+            <h2>Goa</h2>
+            <p>Goa, a small state on the western coast of India, is renowned for its stunning beaches, vibrant culture,
+                and colonial heritage. Once a Portuguese colony, Goa's history is a rich tapestry woven with European
+                and Indian influences, evident in its architecture, cuisine, and traditions. The state's capital,
+                Panaji, and the historic city of Old Goa are home to magnificent churches and cathedrals such as the
+                Basilica of Bom Jesus and Se Cathedral, which are UNESCO World Heritage Sites and stand as testaments to
+                its colonial past. Culturally, Goa is a vibrant blend of East and West, with a unique Goan identity that
+                manifests in its music, dance, and festivals. The traditional music of Goa, infused with Portuguese
+                melodies and local Konkani rhythms, is a key feature of its cultural landscape, with the energetic beats
+                of Goan folk dances like Dekhni and Fugdi enlivening local celebrations. Goa's culinary scene is equally
+                diverse, featuring a mix of Portuguese-inspired dishes like vindaloo and bebinca, and traditional
+                Konkani seafood delicacies, reflecting the region's coastal bounty. Festivals such as Carnival,
+                celebrated with parades, music, and dance, and the Shigmo festival, showcasing vibrant processions and
+                folk performances, highlight the state's festive spirit. Goa's stunning coastline, dotted with
+                palm-fringed beaches such as Calangute, Baga, and Palolem, attracts millions of tourists each year,
+                making it a popular destination for both relaxation and adventure. Beyond the beaches, the lush
+                hinterlands and Western Ghats offer scenic beauty and biodiversity, with spice plantations and wildlife
+                sanctuaries providing a serene escape into nature. Goa's laid-back lifestyle, influenced by its tropical
+                climate and multicultural heritage, creates a unique and welcoming atmosphere, making it a beloved
+                destination for travelers seeking both cultural enrichment and natural beauty.</p>
+            <!-- Add more content specific to Goa -->
+        </div>
+        <div id="gujarat" class="state-content">
+            <h2>Gujarat</h2>
+            <p>Welcome to the cultural page of Gujarat. Explore the rich traditions, festivals, and heritage of this
+                western state.Gujarat is a state along the western coast of India. Its coastline of about 1,600 km is
+                the longest in the country, most of which lies on the Kathiawar peninsula. Gujarat is the fifth-largest
+                Indian state by area, covering some 196,024 km²; and the ninth-most populous state, with a population of
+                60.4 million in 2011</p>
+            <!-- Add more content specific to Gujarat -->
+        </div>
+        <div id="haryana" class="state-content">
+            <h2>Haryana</h2>
+            <p>Welcome to the cultural page of Haryana. Discover the unique traditions, festivals, and heritage of this
+                northern state.Haryana is a North Indian state surrounding New Delhi on 3 sides. The Yamuna River runs
+                along its eastern border with Uttar Pradesh. Shared with Punjab, the state capital Chandigarh is known
+                for its modernist buildings and gridlike street plan designed by Swiss architect, Le Corbusier. The
+                Zakir Hussain Rose Garden features 1,600 species, while its Rock Garden showcases sculptures made with
+                recycled materials</p>
+            <!-- Add more content specific to Haryana -->
+        </div>
+        <div id="himachal-pradesh" class="state-content">
+            <h2>Himachal Pradesh</h2>
+            <p>Himachal Pradesh (Hindi: lit. "Snow-laden Mountain Province") is a state in the northern part of India.
+                Situated in the Western Himalayas, it is one of the thirteen mountain states and is characterised by an
+                extreme landscape featuring several peaks and extensive river systems. Himachal Pradesh is the
+                northernmost state of India and shares borders with the union territories of Jammu and Kashmir and
+                Ladakh to the north, and the states of Punjab to the west, Haryana to the southwest, Uttarakhand to the
+                southeast and a very narrow border with Uttar Pradesh to the south. The state also shares an
+                international border to the east with the Tibet Autonomous Region in China. Himachal Pradesh is also
+                known as Dev Bhoomi or Dev Bhumi, meaning 'Land of Gods' and Veer Bhoomi which means 'Land of the
+                Brave</p>
+            <p>
+            <h3>TRAVEL</h3>
+            <img class="hp"
+                src="E:\se\himachal pradesh\TEXTILES, HANDICRAFT AND COSTUMES OF HIMACHAL PRADESH _ Textile Magazine, Textile News, Apparel News, Fashion News.jpeg">
+            <img class="hpp" src="f1e6b046-1375-40b5-9bff-cab765266180.jpeg">
+            </p>
+            <!-- Add more content specific to Himachal Pradesh -->
+        </div>
+        <div id="jammu-kashmir" class="state-content">
+            <h2>Jammu and Kashmir</h2>
+            <p>Jammu and Kashmir, a region situated in the northern part of the Indian subcontinent, is renowned for its
+                rich cultural heritage, vibrant traditions, and profound historical significance. The area is
+                geographically diverse, encompassing the Himalayan mountains, lush valleys, and serene lakes, which
+                contribute to its picturesque landscape. Historically, Jammu and Kashmir have been a melting pot of
+                various civilizations and cultures, influenced by Hinduism, Buddhism, and Islam. This confluence is
+                reflected in the region's architecture, such as the ancient Hindu temples of Jammu, the Buddhist
+                monasteries in Ladakh, and the splendid Mughal gardens and mosques in the Kashmir Valley. The culture of
+                Jammu and Kashmir is a tapestry of music, dance, and crafts. Traditional Kashmiri music, known for its
+                soothing tones and instruments like the santoor and rabab, is an integral part of local celebrations and
+                ceremonies. Dance forms like Rouff and Hafiza highlight the region's festive spirit, particularly during
+                the exuberant celebrations of Eid, Navreh, and the Hemis festival. The region is also famous for its
+                exquisite handicrafts, including Pashmina shawls, intricate woodwork, and vibrant papier-mâché
+                artifacts, each reflecting centuries-old artisanal skills. Historically, Jammu and Kashmir have been a
+                focal point of strategic and cultural importance, once serving as a major center along the Silk Road,
+                which facilitated the exchange of ideas, goods, and culture between East and West. The region's
+                strategic location has also made it a site of numerous conflicts and political significance, especially
+                in the post-colonial period, contributing to its complex and often tumultuous modern history. Despite
+                these challenges, Jammu and Kashmir remain a symbol of resilience and cultural richness, where the past
+                and present intertwine to create a unique and enduring legacy.</p>
+            <!-- Add more content specific to Jammu and Kashmir -->
+        </div>
+        <div id="jharkhand" class="state-content">
+            <h2>Jharkhand</h2>
+            <p>Welcome to the cultural page of Jharkhand. Discover the unique traditions, festivals, and heritage of
+                this eastern state.Jharkhand is a state in eastern India. It's known for its waterfalls, the elegant
+                Jain temples of Parasnath Hill and the elephants and tigers of Betla National Park. The state capital of
+                Ranchi is a gateway to the park. It features the 17th-century Jagannath Temple, a Hindu shrine and the
+                Jharkhand War Memorial. Tagore Hill is a monument honoring Nobel Prize-winning author Rabindranath
+                Tagore.</p>
+            <!-- Add more content specific to Jharkhand -->
+        </div>
+        <div id="karnataka" class="state-content">
+            <h2>Karnataka</h2>
+            <p>Welcome to the cultural page of Karnataka. Explore the diverse traditions, rich history, and unique
+                festivals of this wonderful state.Karnataka is a state in southwest India with Arabian Sea coastlines.
+                The capital, Bengaluru (formerly Bangalore), is a high-tech hub known for its shopping and nightlife. To
+                the southwest, Mysore is home to lavish temples including Mysore Palace, former seat of the region’s
+                maharajas. Hampi, once the medieval Vijayanagara empire’s capital, contains ruins of Hindu temples,
+                elephant stables and a stone chariot.</p>
+            <!-- Add more content specific to Karnataka -->
+        </div>
+        <div id="kerala" class="state-content">
+            <h2>Kerala</h2>
+            <p>Welcome to the cultural page of Kerala. Discover the lush greenery, vibrant festivals, and rich
+                traditions of God's Own Country.Kerala, a state on India's tropical Malabar Coast, has nearly 600km of
+                Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland
+                are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as
+                wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to
+                elephants, langur monkeys and tigers.</p>
+            <!-- Add more content specific to Kerala -->
+        </div>
+        <div id="ladakh" class="state-content">
+            <h2>Ladakh</h2>
+            <p>Welcome to the cultural page of Ladakh. Explore the unique traditions, festivals, and heritage of this
+                union territory known for its landscapes.Welcome to the cultural page of Ladakh. Explore the unique
+                traditions, festivals, and heritage of this union territory known for its landscapes.Ladakh is a union
+                territory in the northern part of the Indian subcontinent. It covers about 22,800 square miles (59,000
+                square km) and is one of the world's highest regions.
+                Ladakh is bordered by the Jammu and Kashmir union territory to the west, Himachal Pradesh to the south,
+                the Tibet Autonomous Region to the east, and the Pakistan-administered Gilgit-Baltistan and the
+                southwest corner of Xinjiang to the north and west.</p>
+            <!-- Add more content specific to Ladakh -->
+        </div>
+        <div id="lakshadweep" class="state-content">
+            <h2>Lakshadweep</h2>
+            <p>Welcome to the cultural page of Lakshadweep. Discover the rich traditions, festivals, and heritage of
+                this group of islands.Welcome to the cultural page of Lakshadweep. Discover the rich traditions,
+                festivals, and heritage of this group of islands.Lakshadweep is a tropical archipelago of 36 atolls and
+                coral reefs in the Laccadive Sea, off the coast of Kerala, India. Not all of the islands are inhabited,
+                and only a few are open to visitors (permits required). Kavaratti, one of the more developed islands, is
+                home to dozens of mosques, including the ornately decorated Ujra Mosque, as well as Kavaratti Aquarium,
+                showcasing regional fish, shark and coral species.</p>
+            <!-- Add more content specific to Lakshadweep -->
+        </div>
+        <div id="madhya-pradesh" class="state-content">
+            <h2>Madhya Pradesh</h2>
+            <p>Welcome to the cultural page of Madhya Pradesh. Explore the rich traditions, festivals, and heritage of
+                this central Indian state.Welcome to the cultural page of Madhya Pradesh. Explore the rich traditions,
+                festivals, and heritage of this central Indian state.Madhya Pradesh, a large state in central India,
+                retains landmarks from eras throughout Indian history. Begun in the 10th century, its Hindu and Jain
+                temples at Khajuraho are renowned for their carvings of erotic scenes, most prominently Kandariya
+                Mahadeva, a temple with more than 800 sculptures. The eastern Bandhavgarh and Kanha national parks,
+                noted Bengal tiger sanctuaries, offer guided safaris</p>
+            <p>
+            <h3>TRAVEL</h3>
+            <img class="mp" src="E:\se\madhya pradesh\BHEDAGHAT.jpg">
+            <img class="mab" src="E:\se\madhya pradesh\GWALIOR.jpg">
+            <img class="xy" src="E:\se\madhya pradesh\4837152281_4937a99b9f_b(1)_20170909162557.jpg">
+            <img class="xyz" src="E:\se\madhya pradesh\Kanha-National-Park.jpg">
+
+            </p>
+            <!-- Add more content specific to Madhya Pradesh -->
+        </div>
+        <div id="maharashtra" class="state-content">
+            <h2>Maharashtra</h2>
+            <p>Welcome to the cultural page of Maharashtra. Discover the vibrant traditions, festivals, and heritage of
+                this western state.Welcome to the cultural page of Maharashtra. Discover the vibrant traditions,
+                festivals, and heritage of this western state.Maharashtra is a state in western India that is the third
+                largest by area and second largest by population. It is a leader in agricultural and industrial
+                production, trade and transport, and education. The capital of Maharashtra is Mumbai, which is India's
+                financial and commercial capital. Other large cities in Maharashtra include Pune, Nagpur, Nasik, and
+                Aurangabad.</p>
+            <p>
+            <h3>TRAVEL</h3>
+            <img class="ma" src="E:\se\maharashtra\8fb3ac2f-f21d-4b81-a8f4-09963656a458.jpeg">
+            <img class="maa" src="E:\se\maharashtra\download (1).jpeg">
+            <h3>FOOD</h3>
+            <img class="ra" src="E:\se\maharashtra\Vada Pav.jpeg">
+            <img class="raa" src="E:\se\maharashtra\Maharastrian Thali _Marathi Thali - Desi Fiesta.jpeg">
+            <h3>
+                ATTIRE
+            </h3>
+            <img class="ras" src="E:\se\maharashtra\Traditional Dress of Maharashtra.jpeg">
+            <h3>WILDLIFE</h3>
+            <img class="rashtra" src="E:\se\maharashtra\Wildlife spotted at Thekkady , TN , India_.jpeg">
+            <img class="rasht" src="E:\se\maharashtra\Flamingo.jpeg">
+            </p>
+
+
+            <!-- Add more content specific to Maharashtra -->
+        </div>
+        <div id="manipur" class="state-content">
+            <h2>Manipur</h2>
+            <p>Welcome to the cultural page of Manipur. Explore the unique traditions, festivals, and heritage of this
+                northeastern state.Manipur is a state in northeast India, with the city of Imphal as its capital. It is
+                bounded by the Indian states of Nagaland to the north, Mizoram to the south and Assam to the west. It
+                also borders two regions of Myanmar, Sagaing Region to the east and Chin State to the south. The state
+                covers an area of 22,327 km²</p>
+            <!-- Add more content specific to Manipur -->
+        </div>
+        <div id="meghalaya" class="state-content">
+            <h2>Meghalaya</h2>
+            <p>Welcome to the cultural page of Meghalaya. Discover the rich traditions, festivals, and heritage of this
+                northeastern state known for its rainforests.Meghalaya is a state in northeast India. Meghalaya was
+                formed on 21 January 1972 by carving out two districts from the state of Assam: the United Khasi Hills
+                and Jaintia Hills and the Garo Hills. The estimated population of Meghalaya in 2014 was 3,211,474.</p>
+            <!-- Add more content specific to Meghalaya -->
+        </div>
+        <div id="mizoram" class="state-content">
+            <h2>Mizoram</h2>
+            <p>Welcome to the cultural page of Mizoram. Explore the unique traditions, festivals, and heritage of this
+                northeastern state.Mizoram is a state in the northeast of India, bordered by Myanmar to the east and
+                south, Bangladesh to the west, and Assam and Manipur to the north. It has a 630-mile border with Myanmar
+                and Bangladesh.Mizoram has a varied hilly terrain with steep hills separated by rivers that create deep
+                gorges. The average height of the hills is 900 meters, and the highest peak is Phawngpui (Blue Mountain)
+                at 2,210 meters.</p>
+            <!-- Add more content specific to Mizoram -->
+        </div>
+        <div id="nagaland" class="state-content">
+            <h2>Nagaland</h2>
+            <p>Welcome to the cultural page of Nagaland. Discover the rich traditions, festivals, and heritage of this
+                northeastern state known for its tribes.Nagaland is a mountainous state in northeast India, bordering
+                Myanmar. It's home to diverse indigenous tribes, with festivals and markets celebrating the different
+                tribes' culture. Its capital city of Kohima suffered heavy fighting in World War II, commemorated by
+                memorials at the Kohima War Cemetery. The Nagaland State Museum exhibits ancient weaponry, a ceremonial
+                drum and other traditional Naga cultural artifacts.</p>
+            <!-- Add more content specific to Nagaland -->
+        </div>
+        <div id="odisha" class="state-content">
+            <h2>Odisha</h2>
+            <p>Welcome to the cultural page of Odisha. Explore the unique traditions, festivals, and heritage of this
+                eastern state.Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal, is known for its
+                tribal cultures and its many ancient Hindu temples. The capital, Bhubaneswar, is home to hundreds of
+                temples, notably the intricately-carved Mukteshvara. The Lingaraj Temple complex, dating to the 11th
+                century, is set around sacred Bindusagar Lake. The Odisha State Museum is focused on the area’s history
+                and environment. </p>
+            <!-- Add more content specific to Odisha -->
+        </div>
+        <div id="puducherry" class="state-content">
+            <h2>Puducherry</h2>
+            <p>Welcome to the cultural page of Puducherry. Discover the unique traditions, festivals, and heritage of
+                this union territory.Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is
+                now a Union Territory town bounded by the southeastern Tamil Nadu state. Its French legacy is preserved
+                in its French Quarter, with tree-lined streets, mustard-colored colonial villas and chic boutiques. A
+                seaside promenade runs along the Bay of Bengal and passes several statues, including a 4m-high Gandhi
+                Memorial</p>
+            <!-- Add more content specific to Puducherry -->
+        </div>
+        <div id="punjab" class="state-content">
+            <h2>Punjab</h2>
+            <p>Welcome to the cultural page of Punjab. Discover the vibrant traditions, festivals, and heritage of this
+                northern state known for its hospitality.Punjab, a state bordering Pakistan, is the heart of India’s
+                Sikh community. The city of Amritsar, founded in the 1570s by Sikh Guru Ram Das, is the site of
+                Harmandir Sahib, the holiest gurdwara (Sikh place of worship). Known in English as the Golden Temple,
+                and surrounded by the Pool of Nectar, it's a major pilgrimage site. Also in Amritsar is Durgiana Temple,
+                a Hindu shrine famed for its engraved silver doors. </p>
+            <!-- Add more content specific to Punjab -->
+        </div>
+        <div id="rajasthan" class="state-content">
+            <h2>Rajasthan</h2>
+            <p>Welcome to the cultural page of Rajasthan. Explore the rich traditions, festivals, and heritage of this
+                desert state.Rajasthan is a state in northwestern India. It covers 342,239 square kilometres or 10.4 per
+                cent of India's total geographical area. It is the largest Indian state by area and the seventh largest
+                by population.
+                Rajasthan, the largest state in India, is a land of majestic forts, vibrant traditions, and a rich
+                historical legacy. Known as the "Land of Kings," Rajasthan's history is deeply intertwined with tales of
+                valor and chivalry of Rajput rulers, who built magnificent forts and palaces such as the Amber Fort,
+                Mehrangarh Fort, and the City Palace in Udaipur. These architectural marvels stand testament to the
+                state's glorious past and architectural prowess. Culturally, Rajasthan is a vibrant mosaic, reflecting a
+                blend of various traditions and practices that have evolved over centuries. The state's folklore is rich
+                with heroic ballads and hauntingly beautiful tales, often narrated through traditional music and dance
+                forms like Ghoomar, Kalbeliya, and Kathputli (puppet dance), which are integral to its cultural
+                identity. The music, characterized by instruments like the dholak, sarangi, and the ektara, often
+                accompanies these dances, creating a mesmerizing experience. Festivals in Rajasthan, such as the Pushkar
+                Camel Fair, Jaipur Literature Festival, and Teej, are celebrated with great fervor and enthusiasm,
+                showcasing the state's cultural vitality and communal harmony. Traditional attire, including the vibrant
+                ghagra-choli for women and dhoti-kurta for men, often adorned with intricate embroidery and mirror work,
+                reflect the state's artistic heritage. Handicrafts from Rajasthan, such as the famous blue pottery of
+                Jaipur, block-printed textiles, and exquisite jewelry, are celebrated worldwide for their craftsmanship
+                and aesthetic appeal. Historically, Rajasthan has been a significant center of trade and commerce,
+                especially during the medieval period when it was part of various trade routes, including the Silk Road.
+                This facilitated cultural exchanges and the amalgamation of diverse influences that shaped its unique
+                cultural landscape. Despite the arid desert terrain, Rajasthan's ingenuity in water management, evident
+                in the stepwells (baoris) and lake palaces, underscores the region's adaptive strategies and
+                architectural innovation. Rajasthan, with its opulent history, rich traditions, and cultural grandeur,
+                remains a captivating destination that offers a profound glimpse into India's royal and cultural
+                heritage.
+            </p>
+            <!-- Add more content specific to Rajasthan -->
+        </div>
+        <div id="sikkim" class="state-content">
+            <h2>Sikkim</h2>
+            <p>Nestled in the Himalayas, Sikkim is a gem of northeastern India, known for its breathtaking landscapes,
+                rich cultural heritage, and unique traditions. Historically, Sikkim was a sovereign kingdom until it
+                merged with India in 1975, and remnants of its royal past are visible in the ancient monasteries, forts,
+                and palaces that dot its terrain. The state's capital, Gangtok, boasts of landmarks like the Rumtek
+                Monastery, which serves as a center for Tibetan Buddhism, and the Namgyal Institute of Tibetology,
+                showcasing Sikkim's deep-rooted spiritual heritage. Buddhism permeates every aspect of life in Sikkim,
+                evident in the colorful festivals like Losar and Saga Dawa, where monks perform sacred rituals and
+                masked dances to appease deities and commemorate important events in Buddhist history.
+
+                Sikkim's cultural tapestry is woven from diverse ethnic groups, including the indigenous Lepchas,
+                Bhutias, and Nepalis, each contributing their unique customs and traditions. The Lepchas, Sikkim's
+                original inhabitants, celebrate their heritage through folk music, dances like the Pangtoed Chaam, and
+                traditional attire adorned with intricate embroidery. The Bhutias, of Tibetan origin, are known for
+                their vibrant festivals like Lhabab Duchen and Pang Lhabsol, which honor Sikkim's guardian deity
+                Khangchendzonga and promote communal harmony. The Nepali community, comprising a significant portion of
+                the population, brings its own cultural richness with festivals like Dashain and Tihar, marked by
+                colorful rituals, feasting, and family gatherings.
+
+                Sikkim's natural beauty, with its snow-capped mountains, lush valleys, and cascading waterfalls, serves
+                as a backdrop to its cultural vibrancy. The state's ecological diversity is protected through
+                initiatives like the Khangchendzonga National Park, a UNESCO World Heritage Site,
+            </p>
+            <!-- Add more content specific to Sikkim -->
+        </div>
+        <div id="tamil-nadu" class="state-content">
+            <h2>Tamil Nadu</h2>
+            <p>Welcome to the cultural page of Tamil Nadu. Learn about the classical dance forms, ancient temples, and
+                colorful festivals of this historic state.Tamil Nadu, a South Indian state, is famed for its
+                Dravidian-style Hindu temples. In Madurai, Meenakshi Amman Temple has high ‘gopuram’ towers ornamented
+                with colourful figures. On Pamban Island, Ramanathaswamy Temple is a pilgrimage site. The town of
+                Kanyakumari, at India’s southernmost tip, is the site of ritual sunrises. Capital Chennai is known for
+                beaches and landmarks including 1644 colonial Fort St. George</p>
+            <!-- Add more content specific to Tamil Nadu -->
+        </div>
+        <div id="telangana" class="state-content">
+            <h2>Telangana</h2>
+            <p>Welcome to the cultural page of Telangana. Explore the unique blend of traditions, historical monuments,
+                and festivals in this young state.Telangana is a state in southern India. In the capital of Hyderabad,
+                the Charminar is a 16th-century mosque with 4 arches supporting 4 towering minarets. The monument
+                overlooks the city's long-running Laad Bazaar. Once the seat of the Qutb Shahi dynasty, the sprawling
+                Golconda Fort is a former diamond-trading center. In the city of Warangal, the centuries-old Warangal
+                Fort features carved stone towers and gateways.</p>
+            <!-- Add more content specific to Telangana -->
+        </div>
+        <div id="tripura" class="state-content">
+            <h2>Tripura</h2>
+            <p>Welcome to the cultural page of Tripura. Discover the rich traditions, festivals, and heritage of this
+                northeastern state.Tripura is a hilly state in northeast India, bordered on 3 sides by Bangladesh, and
+                home to a diverse mix of tribal cultures and religious groups. In the capital Agartala, the imposing
+                Ujjayanta Palace is set among Mughal gardens, and Gedu Mia’s Mosque has white marble domes and towers.
+                South of the city, Neermahal summer palace sits in the middle of Lake Rudrasagar and blends Hindu and
+                Islamic architectural styles</p>
+            <!-- Add more content specific to Tripura -->
+        </div>
+        <div id="uttar-pradesh" class="state-content">
+            <h2>Uttar Pradesh</h2>
+            <p>Welcome to the cultural page of Uttar Pradesh. Explore the rich traditions, festivals, and heritage of
+                this northern state.Uttar Pradesh, with a total area of 240,928 square kilometres (93,023 sq mi), is
+                India's fourth-largest state in terms of land area and is roughly of same size as United Kingdom. It is
+                situated on the northern spout of India and shares an international boundary with Nepal.</p>
+            <!-- Add more content specific to Uttar Pradesh -->
+        </div>
+        <div id="uttarakhand" class="state-content">
+            <h2>Uttarakhand</h2>
+            <p>Welcome to the cultural page of Uttarakhand. Discover the unique traditions, festivals, and heritage of
+                this northern state known for its hills.Uttarakhand, a state in northern India crossed by the Himalayas,
+                is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study, was made famous by
+                the Beatles’ 1968 visit. The city hosts the evening Ganga Aarti, a spiritual gathering on the sacred
+                Ganges River. The state's forested Jim Corbett National Park shelters Bengal tigers and other native
+                wildlife.</p>
+            <!-- Add more content specific to Uttarakhand -->
+        </div>
+        <div id="west-bengal" class="state-content">
+            <h2>West Bengal</h2>
+            <p>Welcome to the cultural page of West Bengal. Explore the rich traditions, festivals, and heritage of this
+                eastern state.West Bengal is a state in eastern India, between the Himalayas and the Bay of Bengal. Its
+                capital, Kolkata (formerly Calcutta), retains architectural and cultural remnants of its past as an East
+                India Company trading post and capital of the British Raj. The city's colonial landmarks include the
+                government buildings around B.B.D. Bagh Square, and the iconic Victoria Memorial, dedicated to Britain's
+                queen.</p>
+            <!-- Add more content specific to West Bengal -->
+        </div>
+        <div id="attire" class="state-content">
+           
+    <div class="gallery-container">
+        <div class="tile">
+            <img src="images/andhra_pradesh.jpg" alt="Andhra Pradesh">
+            <div class="tile-caption">Andhra Pradesh</div>
+        </div>
+        <div class="tile">
+            <img src="images/arunachal_pradesh.jpg" alt="Arunachal Pradesh">
+            <div class="tile-caption">Arunachal Pradesh</div>
+        </div>
+        <div class="tile">
+            <img src="images/assam.jpg" alt="Assam">
+            <div class="tile-caption">Assam</div>
+        </div>
+        <div class="tile">
+            <img src="images/bihar.jpg" alt="Bihar">
+            <div class="tile-caption">Bihar</div>
+        </div>
+        <div class="tile">
+            <img src="images/chhattisgarh.jpg" alt="Chhattisgarh">
+            <div class="tile-caption">Chhattisgarh</div>
+        </div>
+        <div class="tile">
+            <img src="images/goa.jpg" alt="Goa">
+            <div class="tile-caption">Goa</div>
+        </div>
+        <div class="tile">
+            <img src="images/gujarat.jpg" alt="Gujarat">
+            <div class="tile-caption">Gujarat</div>
+        </div>
+        <div class="tile">
+            <img src="images/haryana.jpg" alt="Haryana">
+            <div class="tile-caption">Haryana</div>
+        </div>
+        <div class="tile">
+            <img src="images/himachal_pradesh.jpg" alt="Himachal Pradesh">
+            <div class="tile-caption">Himachal Pradesh</div>
+        </div>
+        <div class="tile">
+            <img src="images/jharkhand.jpg" alt="Jharkhand">
+            <div class="tile-caption">Jharkhand</div>
+        </div>
+        <div class="tile">
+            <img src="images/karnataka.jpg" alt="Karnataka">
+            <div class="tile-caption">Karnataka</div>
+        </div>
+        <div class="tile">
+            <img src="images/kerala.jpg" alt="Kerala">
+            <div class="tile-caption">Kerala</div>
+        </div>
+        <div class="tile">
+            <img src="images/madhya_pradesh.jpg" alt="Madhya Pradesh">
+            <div class="tile-caption">Madhya Pradesh</div>
+        </div>
+        <div class="tile">
+            <img src="images/maharashtra.jpg" alt="Maharashtra">
+            <div class="tile-caption">Maharashtra</div>
+        </div>
+        <div class="tile">
+            <img src="images/manipur.jpg" alt="Manipur">
+            <div class="tile-caption">Manipur</div>
+        </div>
+        <div class="tile">
+            <img src="images/meghalaya.jpg" alt="Meghalaya">
+            <div class="tile-caption">Meghalaya</div>
+        </div>
+        <div class="tile">
+            <img src="images/mizoram.jpg" alt="Mizoram">
+            <div class="tile-caption">Mizoram</div>
+        </div>
+        <div class="tile">
+            <img src="images/nagaland.jpg" alt="Nagaland">
+            <div class="tile-caption">Nagaland</div>
+        </div>
+        <div class="tile">
+            <img src="images/odisha.jpg" alt="Odisha">
+            <div class="tile-caption">Odisha</div>
+        </div>
+        <div class="tile">
+            <img src="images/punjab.jpg" alt="Punjab">
+            <div class="tile-caption">Punjab</div>
+        </div>
+        <div class="tile">
+            <img src="images/rajasthan.jpg" alt="Rajasthan">
+            <div class="tile-caption">Rajasthan</div>
+        </div>
+        <div class="tile">
+            <img src="images/sikkim.jpg" alt="Sikkim">
+            <div class="tile-caption">Sikkim</div>
+        </div>
+        <div class="tile">
+            <img src="images/tamil_nadu.jpg" alt="Tamil Nadu">
+            <div class="tile-caption">Tamil Nadu</div>
+        </div>
+        <div class="tile">
+            <img src="images/telangana.jpg" alt="Telangana">
+            <div class="tile-caption">Telangana</div>
+        </div>
+        <div class="tile">
+            <img src="images/tripura.jpg" alt="Tripura">
+            <div class="tile-caption">Tripura</div>
+        </div>
+        <div class="tile">
+            <img src="images/uttar_pradesh.jpg" alt="Uttar Pradesh">
+            <div class="tile-caption">Uttar Pradesh</div>
+        </div>
+        <div class="tile">
+            <img src="images/uttarakhand.jpg" alt="Uttarakhand">
+            <div class="tile-caption">Uttarakhand</div>
+        </div>
+        <div class="tile">
+            <img src="images/west_bengal.jpg" alt="West Bengal">
+            <div class="tile-caption">West Bengal</div>
+        </div>
+        <!-- Union Territories -->
+        <div class="tile">
+            <img src="images/andaman_nicobar.jpg" alt="Andaman and Nicobar Islands">
+            <div class="tile-caption">Andaman and Nicobar Islands</div>
+        </div>
+        <div class="tile">
+            <img src="images/chandigarh.jpg" alt="Chandigarh">
+            <div class="tile-caption">Chandigarh</div>
+        </div>
+        <div class="tile">
+            <img src="images/dadra_nagar_haveli_daman_diu.jpg" alt="Dadra and Nagar Haveli and Daman and Diu">
+            <div class="tile-caption">Dadra and Nagar Haveli and Daman and Diu</div>
+        </div>
+        <div class="tile">
+            <img src="images/delhi.jpg" alt="Delhi">
+            <div class="tile-caption">Delhi</div>
+        </div>
+        <div class="tile">
+            <img src="images/jammu_kashmir.jpg" alt="Jammu and Kashmir">
+            <div class="tile-caption">Jammu and Kashmir</div>
+        </div>
+        <div class="tile">
+            <img src="images/ladakh.jpg" alt="Ladakh">
+            <div class="tile-caption">Ladakh</div>
+        </div>
+        <div class="tile">
+            <img src="images/lakshadweep.jpg" alt="Lakshadweep">
+            <div class="tile-caption">Lakshadweep</div>
+        </div>
+        <div class="tile">
+            <img src="images/pondicherry.jpg" alt="Puducherry">
+            <div class="tile-caption">Puducherry</div>
+        </div>
+    </div>
+
+
+
+    
+
+        </div>
+        <div id ="cuisine" class="state-content">
+            <div class="gallery-container">
+                <div class="tile">
+                    <img src="images/punjabi.jpg" alt="Punjabi Cuisine">
+                    <div class="tile-caption">Punjabi</div>
+                </div>
+                <div class="tile">
+                    <img src="images/south_indian.jpg" alt="South Indian Cuisine">
+                    <div class="tile-caption">South Indian</div>
+                </div>
+                <div class="tile">
+                    <img src="images/bengali.jpg" alt="Bengali Cuisine">
+                    <div class="tile-caption">Bengali</div>
+                </div>
+                <div class="tile">
+                    <img src="images/gujarati.jpg" alt="Gujarati Cuisine">
+                    <div class="tile-caption">Gujarati</div>
+                </div>
+                <div class="tile">
+                    <img src="images/maharashtrian.jpg" alt="Maharashtrian Cuisine">
+                    <div class="tile-caption">Maharashtrian</div>
+                </div>
+                <div class="tile">
+                    <img src="images/rajasthani.jpg" alt="Rajasthani Cuisine">
+                    <div class="tile-caption">Rajasthani</div>
+                </div>
+                <!-- Add more Indian cuisines below -->
+                <div class="tile">
+                    <img src="images/kashmiri.jpg" alt="Kashmiri Cuisine">
+                    <div class="tile-caption">Kashmiri</div>
+                </div>
+                <div class="tile">
+                    <img src="images/uttar_pradesh.jpg" alt="Uttar Pradesh Cuisine">
+                    <div class="tile-caption">Uttar Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/oriya.jpg" alt="Oriya Cuisine">
+                    <div class="tile-caption">Oriya</div>
+                </div>
+                <div class="tile">
+                    <img src="images/andhra.jpg" alt="Andhra Cuisine">
+                    <div class="tile-caption">Andhra</div>
+                </div>
+                <div class="tile">
+                    <img src="images/tamil.jpg" alt="Tamil Cuisine">
+                    <div class="tile-caption">Tamil</div>
+                </div>
+                <div class="tile">
+                    <img src="images/kerala.jpg" alt="Kerala Cuisine">
+                    <div class="tile-caption">Kerala</div>
+                </div>
+                <div class="tile">
+                    <img src="images/assam.jpg" alt="Assamese Cuisine">
+                    <div class="tile-caption">Assamese</div>
+                </div>
+                <div class="tile">
+                    <img src="images/madhya_pradesh.jpg" alt="Madhya Pradesh Cuisine">
+                    <div class="tile-caption">Madhya Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/bihar.jpg" alt="Bihari Cuisine">
+                    <div class="tile-caption">Bihari</div>
+                </div>
+                <div class="tile">
+                    <img src="images/jharkhand.jpg" alt="Jharkhand Cuisine">
+                    <div class="tile-caption">Jharkhand</div>
+                </div>
+                <div class="tile">
+                    <img src="images/himachal.jpg" alt="Himachali Cuisine">
+                    <div class="tile-caption">Himachali</div>
+                </div>
+                <div class="tile">
+                    <img src="images/nagaland.jpg" alt="Naga Cuisine">
+                    <div class="tile-caption">Naga</div>
+                </div>
+                <div class="tile">
+                    <img src="images/sikkim.jpg" alt="Sikkimese Cuisine">
+                    <div class="tile-caption">Sikkimese</div>
+                </div>
+                <div class="tile">
+                    <img src="images/goa.jpg" alt="Goan Cuisine">
+                    <div class="tile-caption">Goan</div>
+                </div>
+                <div class="tile">
+                    <img src="images/mizoram.jpg" alt="Mizo Cuisine">
+                    <div class="tile-caption">Mizo</div>
+                </div>
+                <div class="tile">
+                    <img src="images/uttarakhand.jpg" alt="Uttarakhand Cuisine">
+                    <div class="tile-caption">Uttarakhand</div>
+                </div>
+                <div class="tile">
+                    <img src="images/tribal.jpg" alt="Tribal Cuisine">
+                    <div class="tile-caption">Tribal</div>
+                </div>
+                <div class="tile">
+                    <img src="images/manipur.jpg" alt="Manipur Cuisine">
+                    <div class="tile-caption">Manipur</div>
+                </div>
+                <div class="tile">
+                    <img src="images/tripura.jpg" alt="Tripura Cuisine">
+                    <div class="tile-caption">Tripura</div>
+                </div>
+                <div class="tile">
+                    <img src="images/arunachal.jpg" alt="Arunachal Cuisine">
+                    <div class="tile-caption">Arunachal</div>
+                </div>
+                <div class="tile">
+                    <img src="images/meghalaya.jpg" alt="Meghalaya Cuisine">
+                    <div class="tile-caption">Meghalaya</div>
+                </div>
+                <div class="tile">
+                    <img src="images/ladakhi.jpg" alt="Ladakhi Cuisine">
+                    <div class="tile-caption">Ladakhi</div>
+                </div>
+                <div class="tile">
+                    <img src="images/delhi.jpg" alt="Delhi Cuisine">
+                    <div class="tile-caption">Delhi</div>
+                </div>
+                <div class="tile">
+                    <img src="images/dadar.jpg" alt="Dadar Cuisine">
+                    <div class="tile-caption">Dadar</div>
+                </div>
+                <!-- Add remaining states and union territories here -->
+                <div class="tile">
+                    <img src="images/pondicherry.jpg" alt="Pondicherry Cuisine">
+                    <div class="tile-caption">Pondicherry</div>
+                </div>
+                <div class="tile">
+                    <img src="images/chandigarh.jpg" alt="Chandigarh Cuisine">
+                    <div class="tile-caption">Chandigarh</div>
+                </div>
+                <div class="tile">
+                    <img src="" alt="Dadra and Nagar Haveli and Daman and Diu Cuisine">
+                    <div class="tile-caption">Dadra and Nagar Haveli and Daman and Diu</div>
+                </div>
+                <div class="tile">
+                    <img src="C:\Users\dbeot\OneDrive\Desktop\SE project\food\andaman.avif" alt="Andaman and Nicobar Islands Cuisine">
+                    <div class="tile-caption">Andaman and Nicobar Islands</div>
+                </div>
+                <div class="tile">
+                    <img src="lakshadweep.jpg" alt="Lakshadweep Cuisine">
+                    <div class="tile-caption">Lakshadweep</div>
+                </div>
+                <div class="tile">
+                    <img src="ladakh.jpg" alt="Ladakh Cuisine">
+                    <div class="tile-caption">Ladakh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/nehru.jpg" alt="Nehru Nagar Cuisine">
+                    <div class="tile-caption">Nehru Nagar</div>
+                </div>
+                <div class="tile">
+                    <img src="C:\Users\dbeot\OneDrive\Desktop\SE project\food\karnataka.avif" alt="Karanataka Cuisine">
+                    <div class="tile-caption">Karanataka</div>
+                </div>
+                <div class="tile">
+                    <img src="images/dadar.jpg" alt="Dadar Cuisine">
+                    <div class="tile-caption">Dadar</div>
+                </div>
+            </div>
+
+        </div>
+        <div id = "fauna" class="state-content">
+            <div class="gallery-container">
+                <div class="tile">
+                    <img src="images/andhra_pradesh.jpg" alt="Andhra Pradesh">
+                    <div class="tile-caption">Andhra Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/arunachal_pradesh.jpg" alt="Arunachal Pradesh">
+                    <div class="tile-caption">Arunachal Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/assam.jpg" alt="Assam">
+                    <div class="tile-caption">Assam</div>
+                </div>
+                <div class="tile">
+                    <img src="images/bihar.jpg" alt="Bihar">
+                    <div class="tile-caption">Bihar</div>
+                </div>
+                <div class="tile">
+                    <img src="images/chhattisgarh.jpg" alt="Chhattisgarh">
+                    <div class="tile-caption">Chhattisgarh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/goa.jpg" alt="Goa">
+                    <div class="tile-caption">Goa</div>
+                </div>
+                <div class="tile">
+                    <img src="images/gujarat.jpg" alt="Gujarat">
+                    <div class="tile-caption">Gujarat</div>
+                </div>
+                <div class="tile">
+                    <img src="images/haryana.jpg" alt="Haryana">
+                    <div class="tile-caption">Haryana</div>
+                </div>
+                <div class="tile">
+                    <img src="images/himachal_pradesh.jpg" alt="Himachal Pradesh">
+                    <div class="tile-caption">Himachal Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/jharkhand.jpg" alt="Jharkhand">
+                    <div class="tile-caption">Jharkhand</div>
+                </div>
+                <div class="tile">
+                    <img src="images/karnataka.jpg" alt="Karnataka">
+                    <div class="tile-caption">Karnataka</div>
+                </div>
+                <div class="tile">
+                    <img src="images/kerala.jpg" alt="Kerala">
+                    <div class="tile-caption">Kerala</div>
+                </div>
+                <div class="tile">
+                    <img src="images/madhya_pradesh.jpg" alt="Madhya Pradesh">
+                    <div class="tile-caption">Madhya Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/maharashtra.jpg" alt="Maharashtra">
+                    <div class="tile-caption">Maharashtra</div>
+                </div>
+                <div class="tile">
+                    <img src="images/manipur.jpg" alt="Manipur">
+                    <div class="tile-caption">Manipur</div>
+                </div>
+                <div class="tile">
+                    <img src="images/meghalaya.jpg" alt="Meghalaya">
+                    <div class="tile-caption">Meghalaya</div>
+                </div>
+                <div class="tile">
+                    <img src="images/mizoram.jpg" alt="Mizoram">
+                    <div class="tile-caption">Mizoram</div>
+                </div>
+                <div class="tile">
+                    <img src="images/nagaland.jpg" alt="Nagaland">
+                    <div class="tile-caption">Nagaland</div>
+                </div>
+                <div class="tile">
+                    <img src="images/odisha.jpg" alt="Odisha">
+                    <div class="tile-caption">Odisha</div>
+                </div>
+                <div class="tile">
+                    <img src="images/punjab.jpg" alt="Punjab">
+                    <div class="tile-caption">Punjab</div>
+                </div>
+                <div class="tile">
+                    <img src="images/rajasthan.jpg" alt="Rajasthan">
+                    <div class="tile-caption">Rajasthan</div>
+                </div>
+                <div class="tile">
+                    <img src="images/sikkim.jpg" alt="Sikkim">
+                    <div class="tile-caption">Sikkim</div>
+                </div>
+                <div class="tile">
+                    <img src="images/tamil_nadu.jpg" alt="Tamil Nadu">
+                    <div class="tile-caption">Tamil Nadu</div>
+                </div>
+                <div class="tile">
+                    <img src="images/telangana.jpg" alt="Telangana">
+                    <div class="tile-caption">Telangana</div>
+                </div>
+                <div class="tile">
+                    <img src="images/tripura.jpg" alt="Tripura">
+                    <div class="tile-caption">Tripura</div>
+                </div>
+                <div class="tile">
+                    <img src="images/uttar_pradesh.jpg" alt="Uttar Pradesh">
+                    <div class="tile-caption">Uttar Pradesh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/uttarakhand.jpg" alt="Uttarakhand">
+                    <div class="tile-caption">Uttarakhand</div>
+                </div>
+                <div class="tile">
+                    <img src="images/west_bengal.jpg" alt="West Bengal">
+                    <div class="tile-caption">West Bengal</div>
+                </div>
+                <!-- Union Territories -->
+                <div class="tile">
+                    <img src="images/andaman_nicobar.jpg" alt="Andaman and Nicobar Islands">
+                    <div class="tile-caption">Andaman and Nicobar Islands</div>
+                </div>
+                <div class="tile">
+                    <img src="images/chandigarh.jpg" alt="Chandigarh">
+                    <div class="tile-caption">Chandigarh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/dadra_nagar_haveli_daman_diu.jpg" alt="Dadra and Nagar Haveli and Daman and Diu">
+                    <div class="tile-caption">Dadra and Nagar Haveli and Daman and Diu</div>
+                </div>
+                <div class="tile">
+                    <img src="images/delhi.jpg" alt="Delhi">
+                    <div class="tile-caption">Delhi</div>
+                </div>
+                <div class="tile">
+                    <img src="images/jammu_kashmir.jpg" alt="Jammu and Kashmir">
+                    <div class="tile-caption">Jammu and Kashmir</div>
+                </div>
+                <div class="tile">
+                    <img src="images/ladakh.jpg" alt="Ladakh">
+                    <div class="tile-caption">Ladakh</div>
+                </div>
+                <div class="tile">
+                    <img src="images/lakshadweep.jpg" alt="Lakshadweep">
+                    <div class="tile-caption">Lakshadweep</div>
+                </div>
+                <div class="tile">
+                    <img src="images/pondicherry.jpg" alt="Puducherry">
+                    <div class="tile-caption">Puducherry</div>
+                </div>
+            </div>
+            
+        </div>
+        <div id = "travel" class="state-content">
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Indian State & Union Territory Tourism Sites</title>
+                <link rel="stylesheet" href="travel.css">
+            </head>
+            <body>
+                <h1>Indian State & Union Territory Tourism Sites</h1>
+                <div class="container">
+                    <!-- Andhra Pradesh -->
+                    <div class="tile">
+                        <img src="E:\se\logos\download.png" alt="Andhra Pradesh">
+                        <div class="tile-content">
+                            <h2>Andhra Pradesh</h2>
+                            <p>Explore the beauty of Andhra Pradesh</p>
+                            <a href="https://www.aptdc.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Arunachal Pradesh -->
+                    <div class="tile">
+                        <img src="E:\se\logos\download (1).png" alt="Arunachal Pradesh">
+                        <div class="tile-content">
+                            <h2>Arunachal Pradesh</h2>
+                            <p>Discover the unexplored paradise</p>
+                            <a href="https://www.arunachaltourism.com/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Assam -->
+                    <div class="tile">
+                        <img src="E:\se\logos\download.jpeg" alt="Assam">
+                        <div class="tile-content">
+                            <h2>Assam</h2>
+                            <p>Experience the essence of northeast</p>
+                            <a href="https://www.assamtourismonline.com/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Bihar -->
+                    <div class="tile">
+                        <img src="E:\se\logos\download (1).jpeg" alt="Bihar">
+                        <div class="tile-content">
+                            <h2>Bihar</h2>
+                            <p>Explore the land of enlightenment</p>
+                            <a href="http://bihartourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Chhattisgarh -->
+                    <div class="tile">
+                        <img src="E:\se\logos\chattisgarhlogo.png" alt="Chhattisgarh">
+                        <div class="tile-content">
+                            <h2>Chhattisgarh</h2>
+                            <p>Witness the rich cultural heritage</p>
+                            <a href="http://www.goindia.co.in/tourism/chhattisgarh/index.htm" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Goa -->
+                    <div class="tile">
+                        <img src="E:\se\logos\goalogo.jpeg" alt="Goa">
+                        <div class="tile-content">
+                            <h2>Goa</h2>
+                            <p>Experience the vibrant beach life</p>
+                            <a href="https://www.goatourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Gujarat -->
+                    <div class="tile">
+                        <img src="E:\se\logos\gujarat logo.png" alt="Gujarat">
+                        <div class="tile-content">
+                            <h2>Gujarat</h2>
+                            <p>Discover the land of legends</p>
+                            <a href="https://www.gujarattourism.com/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Haryana -->
+                    <div class="tile">
+                        <img src="images/haryana.jpg" alt="Haryana">
+                        <div class="tile-content">
+                            <h2>Haryana</h2>
+                            <p>Explore the rich history and culture</p>
+                            <a href="http://www.haryanatourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Himachal Pradesh -->
+                    <div class="tile">
+                        <img src="images/himachal-pradesh.jpg" alt="Himachal Pradesh">
+                        <div class="tile-content">
+                            <h2>Himachal Pradesh</h2>
+                            <p>Experience the breathtaking landscapes</p>
+                            <a href="https://himachaltourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Jharkhand -->
+                    <div class="tile">
+                        <img src="images/jharkhand.jpg" alt="Jharkhand">
+                        <div class="tile-content">
+                            <h2>Jharkhand</h2>
+                            <p>Explore the raw beauty of nature</p>
+                            <a href="https://jharkhandtourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Karnataka -->
+                    <div class="tile">
+                        <img src="images/karnataka.jpg" alt="Karnataka">
+                        <div class="tile-content">
+                            <h2>Karnataka</h2>
+                            <p>Discover the cultural heritage</p>
+                            <a href="https://www.karnatakatourism.org/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Kerala -->
+                    <div class="tile">
+                        <img src="images/kerala.jpg" alt="Kerala">
+                        <div class="tile-content">
+                            <h2>Kerala</h2>
+                            <p>Experience the backwaters of Kerala</p>
+                            <a href="https://www.keralatourism.org/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Madhya Pradesh -->
+                    <div class="tile">
+                        <img src="images/madhya-pradesh.jpg" alt="Madhya Pradesh">
+                        <div class="tile-content">
+                            <h2>Madhya Pradesh</h2>
+                            <p>Witness the heart of India</p>
+                            <a href="https://www.mptourism.com/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Maharashtra -->
+                    <div class="tile">
+                        <img src="images/maharashtra.jpg" alt="Maharashtra">
+                        <div class="tile-content">
+                            <h2>Maharashtra</h2>
+                            <p>Explore the diverse culture</p>
+                            <a href="https://www.maharashtratourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- Manipur -->
+                    <div class="tile">
+                        <img src="images/manipur.jpg" alt="Manipur">
+                        <div class="tile-content">
+                            <h2>Manipur</h2>
+                            <p>Experience the jewel of India</p>
+                            <a href="https://manipurtourism.gov.in/" target="_blank">Visit Site</a>
+                        </div>
+                    </div>
+                            <!-- Meghalaya -->
+                            <div class="tile">
+                                <img src="images/meghalaya.jpg" alt="Meghalaya">
+                                <div class="tile-content">
+                                    <h2>Meghalaya</h2>
+                                    <p>Experience the abode of clouds</p>
+                                    <a href="https://www.meghalayatourism.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Mizoram -->
+                            <div class="tile">
+                                <img src="images/mizoram.jpg" alt="Mizoram">
+                                <div class="tile-content">
+                                    <h2>Mizoram</h2>
+                                    <p>Discover the land of the hill people</p>
+                                    <a href="https://mizotourism.nic.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Nagaland -->
+                            <div class="tile">
+                                <img src="images/nagaland.jpg" alt="Nagaland">
+                                <div class="tile-content">
+                                    <h2>Nagaland</h2>
+                                    <p>Experience the festivals and tribes</p>
+                                    <a href="https://tourismnagaland.com/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Odisha -->
+                            <div class="tile">
+                                <img src="images/odisha.jpg" alt="Odisha">
+                                <div class="tile-content">
+                                    <h2>Odisha</h2>
+                                    <p>Explore the land of temples and beaches</p>
+                                    <a href="https://www.odishatourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Punjab -->
+                            <div class="tile">
+                                <img src="images/punjab.jpg" alt="Punjab">
+                                <div class="tile-content">
+                                    <h2>Punjab</h2>
+                                    <p>Experience the vibrant culture</p>
+                                    <a href="http://www.punjabtourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Rajasthan -->
+                            <div class="tile">
+                                <img src="images/rajasthan.jpg" alt="Rajasthan">
+                                <div class="tile-content">
+                                    <h2>Rajasthan</h2>
+                                    <p>Discover the deserts and palaces</p>
+                                    <a href="https://www.tourism.rajasthan.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Sikkim -->
+                            <div class="tile">
+                                <img src="images/sikkim.jpg" alt="Sikkim">
+                                <div class="tile-content">
+                                    <h2>Sikkim</h2>
+                                    <p>Explore the land of mountains</p>
+                                    <a href="https://www.sikkimtourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Tamil Nadu -->
+                            <div class="tile">
+                                <img src="images/tamil-nadu.jpg" alt="Tamil Nadu">
+                                <div class="tile-content">
+                                    <h2>Tamil Nadu</h2>
+                                    <p>Discover the rich heritage and culture</p>
+                                    <a href="https://www.tamilnadutourism.org/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Telangana -->
+                            <div class="tile">
+                                <img src="images/telangana.jpg" alt="Telangana">
+                                <div class="tile-content">
+                                    <h2>Telangana</h2>
+                                    <p>Experience the historical and cultural legacy</p>
+                                    <a href="https://www.telanganatourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Tripura -->
+                            <div class="tile">
+                                <img src="images/tripura.jpg" alt="Tripura">
+                                <div class="tile-content">
+                                    <h2>Tripura</h2>
+                                    <p>Explore the land of palaces and temples</p>
+                                    <a href="https://tripuratourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Uttar Pradesh -->
+                            <div class="tile">
+                                <img src="images/uttar-pradesh.jpg" alt="Uttar Pradesh">
+                                <div class="tile-content">
+                                    <h2>Uttar Pradesh</h2>
+                                    <p>Discover the historical and cultural heritage</p>
+                                    <a href="https://uptourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Uttarakhand -->
+                            <div class="tile">
+                                <img src="images/uttarakhand.jpg" alt="Uttarakhand">
+                                <div class="tile-content">
+                                    <h2>Uttarakhand</h2>
+                                    <p>Explore the land of gods</p>
+                                    <a href="https://uttarakhandtourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- West Bengal -->
+                            <div class="tile">
+                                <img src="images/west-bengal.jpg" alt="West Bengal">
+                                <div class="tile-content">
+                                    <h2>West Bengal</h2>
+                                    <p>Experience the cultural diversity</p>
+                                    <a href="https://www.wbtourismgov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Andaman and Nicobar Islands -->
+                            <div class="tile">
+                                <img src="images/andaman-nicobar.jpg" alt="Andaman and Nicobar Islands">
+                                <div class="tile-content">
+                                    <h2>Andaman and Nicobar Islands</h2>
+                                    <p>Discover the pristine beauty</p>
+                                    <a href="https://www.andamans.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Chandigarh -->
+                            <div class="tile">
+                                <img src="images/chandigarh.jpg" alt="Chandigarh">
+                                <div class="tile-content">
+                                    <h2>Chandigarh</h2>
+                                    <p>Experience the city beautiful</p>
+                                    <a href="http://chandigarhtourism.gov.in/" target="_blank">Visit Site</a>
+                                </div>
+                            </div>
+                            <!-- Dadra and Nagar Haveli and Daman and Diu -->
+                        <!-- Dadra and Nagar Haveli and Daman and Diu -->
+            <div class="tile">
+                <img src="images/dadra-daman-diu.jpg" alt="Dadra and Nagar Haveli and Daman and Diu">
+                <div class="tile-content">
+                    <h2>Dadra and Nagar Haveli and Daman and Diu</h2>
+                    <p>Explore the beauty of Dadra and Nagar Haveli and Daman and Diu</p>
+                    <a href="https://www.dnh.gov.in/" target="_blank">Visit Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.state-link').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const state = this.getAttribute('data-state');
+                document.querySelectorAll('.state-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(state).classList.add('active');
+            });
+        });
+    </script>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>North</h3>
+                <ul>
+                    <li><a href="https://chandigarhtourism.gov.in/" target="_blank">Chandigarh</a></li>
+                    <li><a href="http://www.delhitourism.gov.in/" target="_blank">Delhi</a></li>
+                    <li><a href="https://haryanatourism.gov.in/" target="_blank">Haryana</a></li>
+                    <li><a href="http://himachaltourism.gov.in/" target="_blank">Himachal Pradesh</a></li>
+                    <li><a href="http://www.jktourism.jk.gov.in/" target="_blank">Jammu and Kashmir</a></li>
+                    <li><a href="http://punjabtourism.punjab.gov.in/" target="_blank">Punjab</a></li>
+                    <li><a href="https://uttarakhandtourism.gov.in/" target="_blank">Uttarakhand</a></li>
+                    <li><a href="http://uptourism.gov.in/" target="_blank">Uttar Pradesh</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>South</h3>
+                <ul>
+                    <li><a href="https://www.aptdc.in/" target="_blank">Andhra Pradesh</a></li>
+                    <li><a href="https://www.karnatakatourism.org/" target="_blank">Karnataka</a></li>
+                    <li><a href="https://www.keralatourism.org/" target="_blank">Kerala</a></li>
+                    <li><a href="https://www.lakshadweeptourism.com/" target="_blank">Lakshadweep</a></li>
+                    <li><a href="https://www.py.gov.in/" target="_blank">Puducherry</a></li>
+                    <li><a href="https://www.tamilnadutourism.tn.gov.in/" target="_blank">Tamil Nadu</a></li>
+                    <li><a href="https://www.telanganatourism.gov.in/" target="_blank">Telangana</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>East</h3>
+                <ul>
+                    <li><a href="https://www.andamantourism.gov.in/" target="_blank">Andaman and Nicobar Islands</a></li>
+                    <li><a href="http://arunachaltourism.com/" target="_blank">Arunachal Pradesh</a></li>
+                    <li><a href="https://www.assamtourism.gov.in/" target="_blank">Assam</a></li>
+                    <li><a href="http://bihartourism.gov.in/" target="_blank">Bihar</a></li>
+                    <li><a href="https://tourism.jharkhand.gov.in/" target="_blank">Jharkhand</a></li>
+                    <li><a href="https://manipurtourism.gov.in/" target="_blank">Manipur</a></li>
+                    <li><a href="https://www.meghalayatourism.in/" target="_blank">Meghalaya</a></li>
+                    <li><a href="https://tourism.mizoram.gov.in/" target="_blank">Mizoram</a></li>
+                    <li><a href="https://tourism.nagaland.gov.in/" target="_blank">Nagaland</a></li>
+                    <li><a href="https://odishatourism.gov.in/" target="_blank">Odisha</a></li>
+                    <li><a href="https://www.sikkimtourism.gov.in/" target="_blank">Sikkim</a></li>
+                    <li><a href="https://www.tripuratourism.gov.in/" target="_blank">Tripura</a></li>
+                    <li><a href="https://www.wbtourismgov.in/" target="_blank">West Bengal</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>West</h3>
+                <ul>
+                    <li><a href="https://www.dnh.gov.in/" target="_blank">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                    <li><a href="https://www.goatourism.gov.in/" target="_blank">Goa</a></li>
+                    <li><a href="https://www.gujarattourism.com/" target="_blank">Gujarat</a></li>
+                    <li><a href="https://www.maharashtratourism.gov.in/" target="_blank">Maharashtra</a></li>
+                    <li><a href="https://www.tourism.rajasthan.gov.in/" target="_blank">Rajasthan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Central</h3>
+                <ul>
+                    <li><a href="https://www.chhattisgarhtourism.in/" target="_blank">Chhattisgarh</a></li>
+                    <li><a href="https://www.mptourism.com/" target="_blank">Madhya Pradesh</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
